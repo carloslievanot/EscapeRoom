@@ -1,35 +1,66 @@
-# EscapeRoom
-This project aims to show some basic interactions in Unity, mainly Scripting or Activation/Deactivation of objects during runtime, 3D Audio integrated in the scene and Lighting controlled during interaction.
+# Unity 3D Apartment Escape Game
 
-Escape the Apartment Game
-Welcome to the "Escape the Apartment" game! In this challenging escape room experience, you find yourself trapped in a small apartment. Your goal is to complete a series of tasks and puzzles to unlock the main door and escape. Be mindful of the countdown, as you only have a limited amount of time to solve the puzzles.
+## Table of Contents
 
-Getting Started
-When you start the game, you'll be in the living room of the apartment.
-A text canvas in front of you will display game instructions, and a countdown will start from 10 seconds.
-You'll hear the ticking sound of a microwave clock on the kitchen counter, indicating the time limit for the game.
-The time limit can be randomly set to 5, 10, or 15 minutes.
-Gameplay
-Once the countdown reaches zero, the text canvas disappears, and the microwave clock starts counting down the remaining time.
-You must complete a series of tasks to escape the apartment.
-The order of the tasks is randomly decided at the start of the game but follows logical progression.
-Completing a subset of tasks in the living room will open the bedroom door, signified by a sound.
-Completing tasks in the bedroom will open the bathroom door.
-In the bathroom, you'll find a 4-digit code to open the main door and escape.
-Lighting
-The lighting in the apartment changes based on the remaining time:
-Normal color (whitish) if there's more than 2 minutes left.
-Yellowish if there are 1 to 2 minutes left.
-Reddish if there's less than 1 minute left.
-Winning and Losing
-If you complete all the tasks within the time limit, you can open the main door and receive a "You win! Well done." message.
-If you run out of time, a message for losing the game will be displayed.
-There is a "Quit" button to close the application.
-Additional Tasks
-In addition to the basic tasks mentioned, you may encounter:
-Turning on a lamp, which provides a hint for the next task.
-Turning on a laptop, which displays a hint for the next task.
-Turning on a TV, which also provides hints.
-Collecting objects with physical properties and placing them on a weighing scale.
-Opening and closing various doors.
-Feel free to explore and interact with the environment, and remember that the order of tasks is dynamic, so pay close attention to hints and clues to progress through the game. Enjoy your escape room challenge!
+1. [Introduction](#introduction)
+2. [Interaction and Concepts](#interaction-and-concepts)
+3. [Game Tasks](#game-tasks)
+4. [Testing and Script Review](#testing-and-script-review)
+
+---
+
+## Introduction
+
+Welcome to the Unity 3D Apartment Escape Game! In this immersive experience, you find yourself in a small apartment with a mission to escape. As you explore the apartment, you will encounter various tasks and challenges that must be completed before you can unlock the main door and win the game.
+
+---
+
+## Interaction and Concepts
+
+### Interaction Concepts
+
+This project showcases fundamental interactions in Unity, focusing on scripting, activation and deactivation of objects during runtime, 3D audio integration, and dynamic lighting control. These elements contribute to an immersive and engaging gaming experience.
+
+- **Virtual Navigation:** You'll navigate the game environment using a touchpad, simulating a gliding or flying metaphor.
+
+- **Manipulation with Ray Casting:** Interact with objects by casting a ray at an offset distance, allowing you to move and manipulate them.
+
+- **Scripting:** Various scripts control the behavior of objects and game elements during runtime, making the apartment come to life.
+
+- **Activation/Deactivation of Objects:** Objects are dynamically activated and deactivated, adding complexity to the gameplay as you progress.
+
+- **3D Audio Integration:** The project includes 3D audio, creating a lifelike soundscape that reacts to your movements and interactions.
+
+- **Lighting Control:** Lighting within the apartment changes dynamically based on your progress and remaining time, adding visual interest and signaling game status.
+
+### Game Logics
+
+The game's flow is managed by a set of game logics, ensuring tasks are completed in a logical sequence. Opening doors and progressing through the game is directly linked to your accomplishments.
+
+---
+
+## Game Tasks
+
+A set of tasks must be completed to escape the apartment. These tasks are randomly ordered but follow a logical progression. You must:
+
+- Turn on a lamp, which provides hints for the next task.
+- Turn on a laptop, which displays hints for the following task.
+- Turn on a TV, providing hints for the next objective.
+- Collect objects and place them on a weighing scale to reach a specific weight.
+- Open and close the doors, including the bedroom, bathroom, and main door.
+
+Feel free to add more assets and 3D models with relevant behavior to enhance the gaming experience.
+
+---
+
+## Testing and Script Review
+
+To fully appreciate and understand these interactions, we encourage you to test them thoroughly within the game. Experiment with the virtual navigation, ray casting, and object manipulation. Take note of how scripting influences the behavior of objects and the environment.
+
+Moreover, explore the 3D audio integration and pay attention to how sounds react to your movements. Finally, observe the dynamic changes in lighting as you progress through the game.
+
+Don't forget to review the scripts that power these interactions. Understanding the code will provide valuable insights into how these mechanics work. Whether you're a player or a developer, these interactions and concepts are fundamental to creating an engaging Unity 3D experience.
+
+---
+
+Thank you for playing the Unity 3D Apartment Escape Game! We hope you enjoy the immersive experience and challenges it offers.
