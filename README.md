@@ -55,7 +55,7 @@ Feel free to add more assets and 3D models with relevant behavior to enhance the
 
 ## Testing and Script Review
 
-To fully appreciate and understand these interactions, we encourage you to test them thoroughly within the game. Experiment with the virtual navigation, ray casting, and object manipulation. Take note of how scripting influences the behavior of objects and the environment.
+To fully appreciate and understand these interactions, it is encouraged to test them thoroughly within the game. Experiment with the virtual navigation, ray casting, and object manipulation. Take note of how scripting influences the behavior of objects and the environment.
 
 Moreover, explore the 3D audio integration and pay attention to how sounds react to your movements. Finally, observe the dynamic changes in lighting as you progress through the game.
 
