@@ -37,8 +37,8 @@ This project showcases fundamental interactions in Unity, focusing on scripting,
 ### Game Logics
 
 The game's flow is managed by a set of game logics, ensuring tasks are completed in a logical sequence. Opening doors and progressing through the game is directly linked to your accomplishments.
-- The first challenge is in the living room, turning the lights on or off will give you a four digit number to open the door to the master bedroom.
-- In the master bedroom, turn on the TV and on one of the channels you will find a four digit number to open the bathroom door.
+- The first challenge is in the living room, turning the lights on or off will give you a four digit number to open the door to the bedroom.
+- In the bedroom, turn on the TV and on one of the channels you will find a four digit number to open the bathroom door.
 - In the bathroom, go to the scale and find a way to find a weight that will give you the numbers to escape! 
 ---
 
@@ -47,7 +47,6 @@ The game's flow is managed by a set of game logics, ensuring tasks are completed
 A set of tasks must be completed to escape the apartment. These tasks are randomly ordered but follow a logical progression. You must:
 
 - Turn on a lamp, which provides hints for the next task.
-- Turn on a laptop, which displays hints for the following task.
 - Turn on a TV, providing hints for the next objective.
 - Collect objects and place them on a weighing scale to reach a specific weight.
 - Open and close the doors, including the bedroom, bathroom, and main door.
