@@ -7,7 +7,11 @@
 3. [Game Tasks](#game-tasks)
 4. [Testing and Script Review](#testing-and-script-review)
 
-Download here: https://drive.google.com/file/d/1pXGFr8ct7iNpOF9W9NcWnF_Tvy-mh_pH/view?usp=share_link
+Download here: Project for Pico G2 [https://drive.google.com/file/d/1pXGFr8ct7iNpOF9W9NcWnF_Tvy-mh_pH/view?usp=share_link](https://drive.google.com/file/d/1MpuPxQym7qnLiAzBoymD31cj2WfcWLUv/view?usp=drive_link)
+
+Download here: Project build for PC: https://drive.google.com/file/d/1Xd9e3t4RhZ5JrKuxh8IUMI5kSs6dr8Kx/view?usp=drive_link
+
+Watch here a demo video: https://drive.google.com/file/d/1QC-W4sbx3AgJODoozdXs71iUh44tD1OV/view?usp=drive_link
 ---
 
 ## Introduction
